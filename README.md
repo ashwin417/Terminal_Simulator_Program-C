@@ -3,3 +3,5 @@
 
 # This is just a basic C program made for fun!!!
 and this program is under development!
+
+Compile and run the C program to see it's working.
