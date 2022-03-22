@@ -2,3 +2,4 @@
   Making a terminal using C programming for fun
 
 # This is just a basic C program made for fun!!!
+and this program is under development!
