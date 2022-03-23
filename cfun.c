@@ -35,7 +35,7 @@ void main()
 		}
 		else if(strcmp(str,"helpcom")==0)
 		{
-			printf("->\n\n \tls\n \twhoami\n \tadduser\n \tclear\n \tVersion \n \texit\n Enter a command and enjoy your session!!!\n\n");
+			printf("->\n\n \tls\n \twhoami\n \tadduser\n \tclear\n \tVersion \n \trestart \n \texit\n Enter a command and enjoy your session!!!\n\n");
 		}
 		else if(strcmp(str,"clear")==0)
   		{
@@ -44,6 +44,12 @@ void main()
 		else if(strcmp(str,"version")==0)
 		{
 			printf("\t->AshOS S VERSION 1.0\n\t\t->Created By R A for fun!!!\n\t\tProgramming Language Used is C\n");
+		}
+		else if(strcmp(str,"restart")==0)
+		{
+			printf("\e[1;1H\e[2J");
+			printf("\n.....Terminal Cleared.....\n\n.....Restarting Ash.....\n\n");
+			goto label;
 		}
 		else
 		{
