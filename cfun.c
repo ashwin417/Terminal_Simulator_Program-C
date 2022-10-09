@@ -1,3 +1,4 @@
+//This is a program made sarcastically mocking the Linux terminal as an open source work. Some can use this to experience the linux.
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -25,7 +26,7 @@ void main()
 		}
 		else if(strcmp(str,"whoisash")==0)
 		{
-			printf("\t->Ash is the creater of this funny program!!!\n");
+			printf("\t->Ash with some open source contributors is the creater of this funny program!!!\n");
 		}
 		else if(strcmp(str,"adduser")==0)
 		{
@@ -44,12 +45,12 @@ void main()
 		}
 		else if(strcmp(str,"version")==0)
 		{
-			printf("\t->AshOS S VERSION 1.0\n\t\t->Created By R A for fun!!!\n\t\tProgramming Language Used is C\n");
+			printf("\t->AshOS S VERSION 1.0\n\t\t->Created By R A team !!!\n\t\tAn Open Source Work!\n\t\tProgramming Language Used is C\n");
 		}
 		else if(strcmp(str,"restart")==0)
 		{
 			printf("\e[1;1H\e[2J");
-			printf("\n.....Terminal Cleared.....\n\n.....Restarting Ash.....\n\n");
+			printf("\n.....Terminal Cleared.....\n\n.....Restarting the program.....\n\n");
 			goto label;
 		}
 		else
